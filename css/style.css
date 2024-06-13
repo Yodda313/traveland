@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,500;1,700&family=Ribeye&family=Roboto:wght@400;500&display=swap');
+ /*пересмотреть flex элементы*/
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Roboto, serif;
+    background-color: #fff;
+    color: #000;
+
+}
+
+.container {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 900px;
+    background-image: url("../img/Rectangle.png");
+    background-size: cover;
+    color: #fff;
+}
+
+.header-logo {
+    display: flex;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding-top: 47px;
+    padding-left: 211px;
+}
+
+.logo {
+    font-family: 'Ribeye', cursive;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0;
+    padding-top: 42px;
+    padding-left: 230px;
+}
+
+.menu {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.btn-1 {
+    width: 163px;
+    height: 51px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    background-color: #C9453B;
+    border: none;
+    border-radius: 5px;
+    margin: 35px 0 0 172px;
+}
+
+.btn-1:hover {
+    color: #000;
+}
+
+.btn-1:active {
+    background-color: rgba(215, 69, 59, 1);
+}
+
+.travel h1 {
+    margin: 0;
+    padding-top: 208px;
+    padding-left: 218px;
+    font-family: 'Gelasio', serif;
+    font-size: 65px;
+    line-height: 78px;
+    color: #fff;
+}
+
+.travel p {
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 230px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 29px;
+    opacity: 60%;
+    color: #fff;
+}
+
+.btn-2 {
+    margin-top: 40px;
+    margin-left: 230px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    background-color: #C9453B;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 46px 17px 47px;
+}
+
+.location h2 {
+    margin: 0;
+    font-family: 'Gelasio', serif;
+    font-size: 43px;
+    line-height: 63px;
+    padding-top: 140px;
+    text-align: center;
+}
+
+.paragraph {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 29px;
+    padding-top: 20px;
+    text-align: center;
+    opacity: 60%;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 140px;
+}
+
+.card {
+    width: 360px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-right: 31px;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.country {
+    font-family: 'Gelasio', serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding-top: 35px;
+}
+
+.description {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 29px;
+    padding-top: 10px;
+    text-align: center;
+    opacity: 60%;
+}
+
+.offers h2 {
+    margin: 0;
+    font-family: 'Gelasio', serif;
+    font-size: 43px;
+    line-height: 63px;
+    text-align: center;
+}
+
+.slider_container {
+    overflow: hidden;
+}
+
+
+.slider_btn {
+    text-align: center;
+}
+
+.cards-offer {
+    display: flex;
+    justify-content: center;
+}
+
+.card-offer {
+    margin-right: 73px;
+    padding-top: 60px;
+}
+
+.card-offer:last-child {
+    margin-right: 0;
+}
+
+.sight {
+    font-family: 'Gelasio', serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+    text-align: left;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.geolocation {
+    display: flex;
+    padding-top: 8px;
+}
+
+.town {
+    margin: 0;
+    padding-right: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 60%;
+}
+
+.point, .star {
+    margin: auto 0;
+    padding-right: 10px;
+}
+
+.rating {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.days, .person {
+    margin: 0;
+    padding-top: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 60%;
+}
+
+.price {
+    margin: 0;
+    padding-top: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 27px;
+}
+
+.blog h2 {
+    margin: 0;
+    font-family: 'Gelasio', serif;
+    font-size: 43px;
+    line-height: 63px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.cards-blog {
+    display: flex;
+    padding-top: 56px;
+    padding-left: 270px;
+}
+
+.card-japan,
+.card-india,
+.card-pakistan {
+    display: flex;
+    padding-left: 32px;
+    padding-bottom: 30px;
+}
+
+.card-pakistan {
+    padding-bottom: 0;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.place {
+    margin: 0;
+    font-family: 'Gelasio', serif;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.place-2 {
+    margin: 0;
+    font-family: 'Gelasio', serif;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
+.row {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 29px;
+    opacity: 60%;
+    padding-bottom: 10px;
+}
+
+.copy {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.copy-2 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    height: 360px;
+    background-color: rgba(38, 148, 153, 0.04);
+    margin-top: 140px;
+}
+
+.logo-footer {
+    display: block;
+    font-family: 'Ribeye', cursive;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+    width: 186px;
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 270px;
+}
+
+.contact {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    width: 186px;
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 270px;
+}
+
+.contact-1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    width: 186px;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 270px;
+}
+
+.social {
+    width: 186px;
+    padding-top: 24px;
+    padding-left: 270px;
+}
+
+.social-btn {
+    margin-right: 25px;
+}
+
+.social-btn:last-child {
+    margin-right: 0;
+}
+
+.footer-nav {
+    display: flex;
+    padding-top: 70px;
+    padding-left: 107px;
+}
+
+.footer-nav-1,
+.footer-nav-2 {
+    margin: 0;
+    list-style: none;
+}
+
+.footer-nav-1 {
+    padding-left: 0;
+    padding-right: 121px;
+}
+
+.footer-nav-2 {
+    padding-left: 0;
+}
+
+.footer-nav-1 li {
+    padding-bottom: 20px;
+}
+
+.footer-nav-1 li:last-child {
+    padding-bottom: 0;
+}
+
+.footer-nav-2 li {
+    padding-bottom: 20px;
+}
+
+.footer-nav-2 li:last-child {
+    padding-bottom: 0;
+}
+
+.footer-menu {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.subscribe {
+    padding-top: 70px;
+    padding-left: 133px;
+}
+
+.subscribe p {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    padding-bottom: 42px;
+}
+
+.subscribe input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    width: 195px;
+    height: 44px;
+    border-color: rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    background-color: rgba(38, 148, 153, 0.04);
+}
+
+.btn-3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    background-color: #C9453B;
+    width: 103px;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 32px;
+    margin-left: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
